@@ -34,7 +34,7 @@ p {
 article {
   padding: 2rem 1rem; }
 
-/* Add styles here */
+
 .navbar {
   align-items: center;
   background-color: #391D4C;
@@ -110,7 +110,6 @@ article {
   left: 15rem;
   margin-bottom: 6rem; }
 
-/* Place the navbar at the bottom of the page, and make it stick */
 nav .footer {
   background-color: #391D4C;
   overflow: hidden;
@@ -118,7 +117,6 @@ nav .footer {
   bottom: 0;
   width: 100%; }
 
-/* Style the links inside the navigation bar */
 nav .footer a {
   float: left;
   display: block;
@@ -128,12 +126,11 @@ nav .footer a {
   text-decoration: none;
   font-size: 17px; }
 
-/* Change the color of links on hover */
 nav .footer a:hover {
   background-color: #ddd;
   color: black; }
 
-/* Add a color to the active/current link */
 nav .footer a.active {
   background-color: #d16199;
   color: white; }
+
