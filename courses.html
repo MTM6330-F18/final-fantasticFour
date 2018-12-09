@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +7,59 @@
     <title>IMD</title>
     <link rel="stylesheet" href="./css/min/main.css">
 </head>
-
-<body>
-    <div class="navbar">
-        <div class="logo">
+<body id="custom-bootstrap">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  navbar-static-top role="navigation>
+        <a class="navbar-brand logo" href="#">
             <img src="./img/logo-copy.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#respNav" aria-controls="respNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="respNav">
+            <div class="navbar-nav nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./courses.html">Courses</a>
+            <a class="nav-item nav-link" href="./professors.html">Professors</a>
+            </div>
         </div>
-        <nav class="nav">
-            <a href="./index.html" class="menu-item">Home</a>
-            <a href="./courses.html" class="menu-item active">Courses</a>
-            <a href="./professors" class="menu-item">Professors</a>
-        </nav>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Courses in the Interactive Media Design program range from 2 to 4 hours long. Students are required to also take 4 General Elective online courses throughout the two years. Courses may be offered in a classroom, entirely online or in hybrid modes which means it will be combined classroom sessions including online learning activities.   Every full-time student will receive an Algonquin email which is used to communicate important information about the course events. Click here to view examples of course timetables.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <img src="./img/ux course.png" alt="photo" class="img-fluid">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <img src="./img/motion course.png" alt="photo" class="img-fluid">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <img src="./img/dslr course.png" alt="photo" class="img-fluid">
+            </div>
+        </div>
     </div>
-    <p>Courses in the Interactive Media Design program range from 2 to 4 hours long. Students are required to also take
-        4 General Elective online courses throughout the two years. Courses may be offered in a classroom, entirely
-        online or in hybrid modes which means it will be combined classroom sessions including online learning
-        activities. Every full-time student will receive an Algonquin email which is used to communicate important
-        information about the course events. Click here to view examples of course timetables. </p>
-    <div class="photo1">
-        <img src="./img/ux course.png" alt="photo">
-    </div>
-    <div class="photo2">
-        <img src="./img/motion course.png" alt="photo">
-    </div>
-    <div class="photo3">
-        <img src="./img/dslr course.png" alt="photo">
-    </div>
-    <!-- <div class="p2">
-       <p></p>
-   </div> -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-<nav>
-    <footer>
-        <div class="footer">
-            <a href="./index.html">Home</a>
-            <a href="./courses.html" class="active">Courses</a>
-            <a href="#contact">Professors</a>
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="footer">
+                <a href="./index.html" class="active">Home</a>
+                <a href="./courses.html">Courses</a>
+                <a href="./professors.html">Professors</a>
+            </div>
         </div>
-    </footer>
-</nav>
-<div class="copyright">Fantastic 6 2018</div>
+        <div class="row copyright">@ Fantastic 6 2018</div>
+    </div>
+</footer>
 
 </html>
