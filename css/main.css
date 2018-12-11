@@ -132,5 +132,10 @@ nav .footer a:hover {
 
 nav .footer a.active {
   background-color: #d16199;
-  color: white; }
+  color: white; 
+}
 
+.algonquin {
+  position:absolute;
+  left:4rem; 
+}
